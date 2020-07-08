@@ -272,6 +272,19 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@flagares-ticketing/common@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@flagares-ticketing/common/-/common-1.0.0.tgz#dd260cb505601b50a94c56a1e774dd0dc4472551"
+  integrity sha512-abKyhKRdv275AI8ID+mOSh8TG+OvRE6XJ0sS01Yu6jDS6lS5D3L7fY0t3IUd6Wjms2u1KqKqYDqVinjRyoJw6g==
+  dependencies:
+    "@types/cookie-session" "^2.0.41"
+    "@types/express" "^4.17.6"
+    "@types/jsonwebtoken" "^8.5.0"
+    cookie-session "^1.4.0"
+    express "^4.17.1"
+    express-validator "^6.6.0"
+    jsonwebtoken "^8.5.1"
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
