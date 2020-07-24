@@ -280,10 +280,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@flagares-ticketing/common@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@flagares-ticketing/common/-/common-1.0.1.tgz#854d6ddaab720e9195fda186efb951fe7cf72911"
-  integrity sha512-+t7+x6tLopuHJkJnoeczsNLlT6uN0ozTY+exDIarNAspDWW9UKK/9urpCkj5ZAwifkdnhqFMXE9JPfNKkf8+og==
+"@flagares-ticketing/common@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@flagares-ticketing/common/-/common-1.0.2.tgz#c6ad278784518cbb2ffea2ef6e01598c5ae415b6"
+  integrity sha512-4N1lI/z1gY8rlmBdM2tDnEcJtG4yWqub8V1PeDq+Y1e1kgCrXwFlqNRJpDG4w+unrVaym08R1PEKaNttuJND8Q==
   dependencies:
     "@types/cookie-session" "^2.0.41"
     "@types/express" "^4.17.6"
