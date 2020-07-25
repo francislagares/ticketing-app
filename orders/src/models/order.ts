@@ -2,18 +2,20 @@ import mongoose from 'mongoose';
 import { OrderStatus } from '@flagares-ticketing/common';
 import { TicketDoc } from './ticket';
 
+export { OrderStatus };
+
 interface OrderAttrs {
   userId: string;
   status: OrderStatus;
   expiresAt: Date;
-  tickets: TicketDoc;
+  ticket: TicketDoc;
 }
 
 interface OrderDoc extends mongoose.Document {
   userId: string;
   status: OrderStatus;
   expiresAt: Date;
-  tickets: TicketDoc;
+  ticket: TicketDoc;
 }
 
 interface OrderModel extends mongoose.Model<OrderDoc> {
@@ -35,7 +37,7 @@ const orderSchema = new mongoose.Schema(
     expiresAt: {
       type: mongoose.Schema.Types.Date,
     },
-    tickets: {
+    ticket: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Ticket',
     },
