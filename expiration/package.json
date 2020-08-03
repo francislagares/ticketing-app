@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@flagares-ticketing/common": "^1.0.6",
+    "@flagares-ticketing/common": "^1.0.8",
     "@types/bull": "^3.14.0",
     "bull": "^3.16.0",
     "node-nats-streaming": "^0.3.2",
