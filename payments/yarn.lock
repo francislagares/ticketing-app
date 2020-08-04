@@ -271,7 +271,7 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@flagares-ticketing/common@^1.0.6":
+"@flagares-ticketing/common@^1.0.8":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@flagares-ticketing/common/-/common-1.0.8.tgz#7676d2749bc9e9a2852c2c703125509bb5cbd577"
   integrity sha512-Cg3sigPtMymIyE9QDNRn7PFU19VzvA5dmqy+kg6eml4Bh0txK2+611UNXAcpy0O6EOnl0+Qfv8BHoI6sZl/5CA==
@@ -702,7 +702,7 @@
     "@types/mongodb" "*"
     "@types/node" "*"
 
-"@types/node@*":
+"@types/node@*", "@types/node@>=8.1.0":
   version "14.0.27"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.27.tgz#a151873af5a5e851b51b3b065c9e63390a9e0eb1"
   integrity sha512-kVrqXhbclHNHGu9ztnAwSncIgJv/FaxmzXJvGXNdcCpV1b8u1/Mi6z6m0vwy0LzKeXFTPLH0NzwmoJ3fNCIq0g==
@@ -3894,7 +3894,7 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@^6.5.1:
+qs@^6.5.1, qs@^6.6.0:
   version "6.9.4"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
   integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
@@ -4549,6 +4549,14 @@ strip-json-comments@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
+
+stripe@^8.81.0:
+  version "8.81.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-8.81.0.tgz#c5ef1e57a8a806c1e908dc509ad137cd8f3c7cf6"
+  integrity sha512-eGnx3WcP7fsn0uCxuPSb7UQj7U3yZLv9WE5rIU2LArgggaq54fejNvf7IbzUs1jDhoJRgUERJylc651WmbF/ow==
+  dependencies:
+    "@types/node" ">=8.1.0"
+    qs "^6.6.0"
 
 superagent@^3.8.3:
   version "3.8.3"
